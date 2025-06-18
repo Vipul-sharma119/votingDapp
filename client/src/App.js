@@ -84,6 +84,4 @@ function App() {
 }
 
 export default App;
-//list of all accounts to select from
-// selected account should become the sender
-//list of accounts should be common in all components
+
