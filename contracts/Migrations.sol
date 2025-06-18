@@ -40,7 +40,7 @@ contract Vote {
         require(endTime > block.timestamp || stopVoting, "Voting is over");
         _;
     }
-
+// verify 
     function voterVerification(address _person) internal view returns (bool) {
         Voter[] memory arr = new Voter[](nextVoterId - 1);
 
